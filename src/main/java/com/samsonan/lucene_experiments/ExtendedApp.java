@@ -21,7 +21,7 @@ public class ExtendedApp {
 		ExtendedApp tester;
 		try {
 			tester = new ExtendedApp();
-			//tester.createIndex();
+			tester.createIndex();
 			tester.search("second");
 		} catch (IOException e) {
 			e.printStackTrace();
